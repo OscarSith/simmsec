@@ -27,7 +27,8 @@ header nav li {
 }
 header nav a {
 	font-size: 1.3em;
-	color: #333
+	color: #333;
+	padding: 2px 4px !important
 }
 header nav li.active {
 	background-color: #0071BC;
