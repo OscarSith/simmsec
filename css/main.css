@@ -1,0 +1,155 @@
+@import 'font-awesome.min.css';
+@font-face {
+	font-family: 'CenturyGothic';
+	src: url('../fonts/CenturyGothic.eot?#iefix') format('embedded-opentype'),  url('../fonts/CenturyGothic.woff') format('woff'), url('../fonts/CenturyGothic.ttf')  format('truetype'), url('../fonts/CenturyGothic.svg#CenturyGothic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: CenturyGothic !important;
+}
+header {
+	border-top: 6px solid #0071BC;
+}
+header ul {
+	margin-bottom: 0;
+}
+header nav.navbar-default {
+	background-color: transparent;
+}
+nav .navbar-collapse {
+	padding: 0
+}
+header nav li {
+	float: left;
+	padding: 80px 25px 20px;
+}
+header nav a {
+	font-size: 1.3em;
+	color: #333
+}
+header nav li.active {
+	background-color: #0071BC;
+}
+li.active a{
+	color: #fff !important;
+}
+header a:hover {
+	text-decoration: none;
+}
+.home-slider {
+	height: 406px;
+	background: url('../img/banner-home.jpg') no-repeat 50% 50%;
+}
+.home-slider h2 {
+	margin-top: 0;
+	padding-top: 11%;
+	padding-left: 12%;
+	color: #fff;
+}
+.home-slider a {
+	font-size: 18px;
+	color: #fff;
+	display: inline-block;
+	padding: 6px 20px;
+	border: 1px solid #fff
+}
+.home-slider p {
+	line-height: 1.5em;
+}
+#list-products .col-sm-4 {
+	margin-bottom: 15px
+}
+.hline-red {
+	background-color: #F00;
+	color: #fff;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	padding: 10px 20px;
+}
+.header-line {
+	border-bottom: 2px solid #E6E6E6;
+	line-height: 5px;
+	margin: 25px 0;
+}
+.header-line span {
+	background-color: #fff;
+	padding-right: 10px;
+}
+.blue-color {
+	color: #0071BC
+}
+footer {
+	border-top: 10px solid #0071BC;
+	margin-top: 30px;
+	padding-top: 20px;
+}
+address {
+	color: #808080
+}
+.created-by {
+	color: #CCCCCC
+}
+#section-nosotros p {
+	font-size: 1.2em;
+	width: 90%;
+}
+.brand-list li {
+	float: left;
+	margin-right: 2px
+}
+#brand-facebook .fa-circle {
+	color: #245188;
+}
+#brand-youtube .fa-circle {
+	color: #C1322C;
+}
+#brand-tumblr .fa-circle {
+	color: #178DB4;
+}
+#brand-linkedin .fa-circle {
+	color: #25669F;
+}
+#brand-dropbox .fa-circle {
+	color: #65AFE1;
+}
+#brand-google-plus .fa-circle {
+	color: #C1322C;
+}
+@media (max-width: 1199px) {
+	header nav li {
+		padding-left: 13px;
+		padding-right: 13px;
+	}
+}
+@media (max-width: 991px) {
+	#logo img{
+		height: 78px;
+	}
+	header nav li {
+		font-size: .8em;
+/*		padding-left: 15px;
+		padding-right: 15px;*/
+		padding-top: 54px;
+	}
+	#section-nosotros p {
+		font-size: inherit;
+		width: auto
+	}
+}
+@media (max-width: 768px) {
+	header nav.navbar-default {
+		float: none !important;
+	}
+	.navbar-toggle {
+		margin-top: 22px;
+	}
+	header nav li {
+		float: none;
+		padding: 12px 10px;
+	}
+	.navbar-collapse {
+		width: 100%
+	}
+}
