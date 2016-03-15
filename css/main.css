@@ -194,6 +194,11 @@ form .btn-danger {
 		padding: 5px;
 		font-size: .8em;
 	}
+	.block-us {
+		width: auto;
+		margin-right: 0;
+		float: none;
+	}
 }
 @media (max-width: 768px) {
 	header nav.navbar-default {
