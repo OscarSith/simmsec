@@ -118,6 +118,23 @@ address {
 #brand-google-plus .fa-circle {
 	color: #C1322C;
 }
+.block-us {
+	float: right;
+	margin-right: 30px;
+	width: 91.7%;
+}
+form .form-control {
+	text-align: center;
+}
+form .btn-danger {
+	background-color: #CE000F;
+	margin-top: 40px;
+	padding: 10px 60px;
+}
+.empty-img {
+	height: 428px;
+	background-color: #333
+}
 @media (max-width: 1199px) {
 	header nav li {
 		padding-left: 13px;
