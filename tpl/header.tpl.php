@@ -29,7 +29,7 @@ $path = array_pop($url);
 						<ul class="list-unstyled nav">
 							<li <?php echo $path == 'index.php' || $path == '' ? 'class="active"' : ''?>><a href="index.php">HOME</a></li>
 							<li <?php echo $path == 'empresa.php' ? 'class="active"' : ''?>><a href="empresa.php">LA EMPRESA</a></li>
-							<li <?php echo $path == 'productos.php' ? 'class="active"' : ''?>><a href="#">PRODUCTOS</a></li>
+							<li <?php echo $path == 'productos.php' ? 'class="active"' : ''?>><a href="productos.php">PRODUCTOS</a></li>
 							<li <?php echo $path == 'contacto.php' ? 'class="active"' : ''?>><a href="contacto.php">CONTACTO</a></li>
 						</ul>
 					</nav>

@@ -59,7 +59,7 @@ header a:hover {
 .home-slider p {
 	line-height: 1.5em;
 }
-#list-products .col-sm-4 {
+#list-products .col-sm-4, #list-products .col-sm-6 {
 	margin-bottom: 15px
 }
 .hline-red {
@@ -135,6 +135,40 @@ form .btn-danger {
 	height: 428px;
 	background-color: #333
 }
+.mt40 {
+	margin-top: 40px;
+}
+#list-categories h5 {
+	background-color: #4D4D4D;
+	color: #fff;
+	padding: 10px 14px;
+}
+#list-categories ul {
+	background-color: #E6E6E6;
+}
+#list-categories li {
+	padding: 5px 10px 7px;
+}
+#list-categories li:hover a, .active-category {
+	background-color: #29ABE2;
+	color: #fff !important
+}
+#list-categories li a {
+	display: block;
+	border-bottom: 1px solid #fff;
+	text-decoration: none;
+	color: #333333;
+	padding: 5px;
+	font-size: .9em
+}
+.mt0 {
+	margin-top: 0
+}
+.product-title {
+	margin-bottom: 20px;
+	margin-top: 11px;
+}
+
 @media (max-width: 1199px) {
 	header nav li {
 		padding-left: 13px;
@@ -147,13 +181,18 @@ form .btn-danger {
 	}
 	header nav li {
 		font-size: .8em;
-/*		padding-left: 15px;
-		padding-right: 15px;*/
 		padding-top: 54px;
 	}
 	#section-nosotros p {
 		font-size: inherit;
 		width: auto
+	}
+	#list-categories li {
+		padding: 4px 10px 5px;
+	}
+	#list-categories li a {
+		padding: 5px;
+		font-size: .8em;
 	}
 }
 @media (max-width: 768px) {
