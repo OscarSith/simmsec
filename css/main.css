@@ -9,7 +9,7 @@
 body {
 	font-family: CenturyGothic !important;
 }
-header {
+.bartop {
 	border-top: 6px solid #0071BC;
 }
 header ul {
@@ -39,22 +39,17 @@ li.active a{
 header a:hover {
 	text-decoration: none;
 }
-.home-slider {
-	height: 406px;
-	background: url('../img/banner-home.jpg') no-repeat 50% 50%;
+.nav>li>a:focus, .nav>li>a:hover {
+	background-color: transparent;
 }
-.home-slider h2 {
-	margin-top: 0;
-	padding-top: 11%;
-	padding-left: 12%;
-	color: #fff;
-}
-.home-slider a {
-	font-size: 18px;
-	color: #fff;
+.show-more {
 	display: inline-block;
+	height: 15%;
+	left: 6.4%;
 	padding: 6px 20px;
-	border: 1px solid #fff
+	position: absolute;
+	top: 55%;
+	width: 24.5%;
 }
 .home-slider p {
 	line-height: 1.5em;
@@ -68,6 +63,9 @@ header a:hover {
 	margin-bottom: 40px;
 	margin-top: 40px;
 	padding: 10px 20px;
+}
+.hline-red a {
+	color: #fff;
 }
 .header-line {
 	border-bottom: 2px solid #E6E6E6;
@@ -99,6 +97,12 @@ address {
 .brand-list li {
 	float: left;
 	margin-right: 2px
+}
+.brand-list .fa-stack {
+	opacity: .7;
+}
+.brand-list .fa-stack:hover {
+	opacity: 1;
 }
 #brand-facebook .fa-circle {
 	color: #245188;

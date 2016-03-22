@@ -3,7 +3,6 @@
 	<section class="row">
 		<h4 class="hline-red">
 			<span class="pull-left">NOSOTROS</span>
-			<span class="pull-right">VER MÁS</span>
 			<div class="clearfix"></div>
 		</h4>
 		<div class="row" id="list-products">
@@ -16,8 +15,9 @@
 					<p>Ser en el año 2015 una empresa líder a nivel nacional en la fabricación y comercialización de soluciones integrales del área metalmecánica, garantizando un crecimiento sostenible a través de la calidad de nuestros productos y servicios, generando rentabilidad, confianza y satisfacción para nuestros clientes y colaboradores.</p>
 				</div>
 			</div>
-			<div class="col-sm-6">
-				<img src="#" class="img-responsive empty-img">
+			<div class="col-sm-6 mt40">
+				<img src="img/nosotros-1.jpg" class="img-responsive center-block" id="hoverImage" data-alter="img/nosotros-2.jpg">
+				<img src="img/nosotros-2.jpg" class="hidden">
 			</div>
 		</div>
 		<div class="clearfix"></div>

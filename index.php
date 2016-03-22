@@ -3,7 +3,8 @@
 	<section class="row">
 		<h4 class="hline-red">
 			<span class="pull-left">PRODUCTOS</span>
-			<span class="pull-right">VER MÁS</span>
+			<span class="pull-right">
+				<a href="productos.php">VER MÁS</a></span>
 			<div class="clearfix"></div>
 		</h4>
 		<div class="row" id="list-products">
@@ -31,7 +32,9 @@
 	<section id="section-nosotros" class="row">
 		<h4 class="hline-red">
 			<span class="pull-left">NOSOTROS</span>
-			<span class="pull-right">VER MÁS</span>
+			<span class="pull-right">
+				<a href="empresa.php">VER MÁS</a>
+			</span>
 			<div class="clearfix"></div>
 		</h4>
 		<div class="row">
