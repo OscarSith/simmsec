@@ -46,7 +46,8 @@
 					</p>
 				</div>
 				<div class="col-sm-6">
-					<img src="img/nosotros.jpg" class="img-responsive">
+					<img src="img/nosotros-1.jpg" class="img-responsive center-block" id="hoverImage" data-alter="img/nosotros-2.jpg">
+					<img src="img/nosotros-2.jpg" class="hidden">
 				</div>
 			</div>
 		</div>

@@ -16,8 +16,7 @@
 				</div>
 			</div>
 			<div class="col-sm-6 mt40">
-				<img src="img/nosotros-1.jpg" class="img-responsive center-block" id="hoverImage" data-alter="img/nosotros-2.jpg">
-				<img src="img/nosotros-2.jpg" class="hidden">
+				<img src="img/foto-nosotros.jpg" class="img-responsive">
 			</div>
 		</div>
 		<div class="clearfix"></div>

@@ -32,7 +32,7 @@
 				</form>
 			</div>
 			<div class="col-sm-6">
-				<img src="#" class="img-responsive empty-img">
+				<img src="img/foto-contacto.jpg" class="img-responsive empty-img">
 			</div>
 		</div>
 		<div class="clearfix"></div>

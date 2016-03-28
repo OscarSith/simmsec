@@ -78,7 +78,8 @@
 			fade: true,
 			arrows: false,
 			autoplay: true,
-			pauseOnHover: false
+			pauseOnHover: false,
+			speed: 2000
 		});
 	</script>
 </body>
