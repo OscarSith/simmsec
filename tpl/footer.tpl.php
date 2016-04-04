@@ -64,7 +64,7 @@
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/slick.min.js"></script>
 	<script type="text/javascript">
-		var $img = $('#hoverImage');
+		var $img = $('#hoverImage, #list-products .img-responsive');
 		if ($img.length) {
 			function hoverImg() {
 				var $this = $(this),

@@ -33,16 +33,28 @@
 				</div>
 				<div class="row">
 					<div class="col-sm-6">
-						<img src="img/products/product01.jpg" class="img-responsive center-block">
+						<img src="img/products/ACOPLE_DE_MANGUERA.png" class="img-responsive center-block" data-alter="img/products/ACOPLE_DE-MANGUERA-NEGRO.png">
+						<img src="img/products/ACOPLE_DE-MANGUERA-NEGRO.png" class="hidden">
 					</div>
 					<div class="col-sm-6">
-						<img src="img/products/product02.jpg" class="img-responsive center-block">
+						<img src="img/products/CABLE_DE_ARRASTRE_CABLE_SALVA_ESCALERA.png" class="img-responsive center-block" data-alter="img/products/CABLE-DE-ARRASTRE-Y-CABLE-SALVA-ESCALERA-NEGRO.png">
+						<img src="img/products/CABLE-DE-ARRASTRE-Y-CABLE-SALVA-ESCALERA-NEGRO.png" class="hidden">
 					</div>
 					<div class="col-sm-6">
-						<img src="img/products/product03.jpg" class="img-responsive center-block">
+						<img src="img/products/GUIADOR_DE_AZAFATA.png" class="img-responsive center-block" data-alter="img/products/GUIADOR-DE-AZAFATA-NEGRO.png">
+						<img src="img/products/GUIADOR-DE-AZAFATA-NEGRO.png" class="hidden">
 					</div>
 					<div class="col-sm-6">
-						<img src="img/products/product04.jpg" class="img-responsive center-block">
+						<img src="img/products/GUIADOR_DE_PUERTA_TIPO_ATLAS.png" class="img-responsive center-block" data-alter="img/products/GUIADOR-DE-PUERTA-TIPO-ATLAS-NEGRO.png">
+						<img src="img/products/GUIADOR-DE-PUERTA-TIPO-ATLAS-NEGRO.png" class="hidden">
+					</div>
+					<div class="col-sm-6">
+						<img src="img/products/REVESTIMIENTO_10_NYLON_RF1.png" class="img-responsive center-block" data-alter="img/products/REVESTIMIENTO-10-NYLON-RF1-NEGRO.png">
+						<img src="img/products/REVESTIMIENTO-10-NYLON-RF1-NEGRO.png" class="hidden">
+					</div>
+					<div class="col-sm-6">
+						<img src="img/products/RUEDA_DE_3_CANALES.png" class="img-responsive center-block" data-alter="img/products/RUEDA-DE-3-CANALES-NEGRO.png">
+						<img src="img/products/RUEDA-DE-3-CANALES-NEGRO.png" class="hidden">
 					</div>
 				</div>
 			</div>

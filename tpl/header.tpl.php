@@ -1,4 +1,5 @@
 <?php
+session_start();
 $url = $_SERVER['PHP_SELF'];
 $url = explode('/', $url);
 $path = array_pop($url);
@@ -9,6 +10,8 @@ $path = array_pop($url);
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Somos una empresa metalmecánica con 19 años en el mercado al servicio del sector industrial, dedicada a suministrar, fabricar piezas, repuestos y accesorios metalmecánicos de óptima calidad y precisión para la Industria en general.">
+	<meta name="keywords" content="Metalmecánica, Servicio Mecanizado, Repuesto Ascensores, Proyectos metalmecánicos, torno, fresadora, Engranajez, Generador,  Metal mecánicas peru, metal metálica.">
 	<title>Simmec <?php echo $path ?></title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/slick.css">
